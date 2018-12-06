@@ -3,7 +3,7 @@
 public class PlayerMovement : MonoBehaviour
 {
 
-    public float SwimSpeed = 10f;
+    public float SwimSpeed = 10;
     SpriteRenderer sRenderer;
 
     // Use this for initialization
@@ -64,5 +64,11 @@ public class PlayerMovement : MonoBehaviour
             transform.localPosition += Vector3.right * SwimSpeed * 0.25f;
             transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
+
+    }
+
+    public void SetSwimSpeed(float _swimSpeed)
+    {
+        SwimSpeed = SwimSpeed * _swimSpeed;
     }
 }

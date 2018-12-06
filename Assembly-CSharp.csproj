@@ -61,11 +61,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BoxMechanics.cs" />
-    <Compile Include="Assets\BoxTransport.cs" />
+    <Compile Include="Assets\Scripts\BoxMechanics.cs" />
+    <Compile Include="Assets\Scripts\BoxTransport.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\testScript.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Temp/ProjectShinobi/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
